@@ -1,0 +1,107 @@
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage{natbib}
+\usepackage{url}
+%\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{parskip}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage[nottoc,numbib]{tocbibind}
+%\usepackage{vmargin}
+
+
+\title{The University of Southampton \\ \vspace{2pt} Lunar Hopper Project}								% Title
+\author{Jack Tyler}								% Author
+\date{\today}											% Date
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\theauthor}
+\lhead{\thetitle}
+\cfoot{\thepage}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+	\centering
+    \vspace*{0.5 cm}
+    \includegraphics[width=\linewidth]{uos_svg}\\[1.0 cm]	% University Logo
+    %\textsc{\LARGE FACULTY OF ENGINEERING AND THE ENVIRONMENT \\ UNIVERSITY OF SOUTHAMPTON SPACEFLIGHT SOCIETY}\\[2.0 cm]	% University Name
+	%\textsc{\Large FEEG1002}\\[0.5 cm]				% Course Code
+	%\textsc{\large Mechanics, Structures and Materials}\\[0.5 cm]				% Course Name
+	\rule{\linewidth}{0.2 mm} \\[0.4 cm]
+	{ \huge \bfseries \thetitle}\\
+	\rule{\linewidth}{0.2 mm} \\[1.5 cm]
+	
+% 	\begin{minipage}{0.4\textwidth}
+% 		\begin{flushleft} \large
+% 			\emph{Author:}\\
+% 			\theauthor
+% 			\end{flushleft}
+% 			\end{minipage}~
+% 			\begin{minipage}{0.4\textwidth}
+% 			\begin{flushright} \large
+% 			\emph{Student Number:} \\
+% 			27513556									% Your Student Number
+% 		\end{flushright}
+% 	\end{minipage}\\[2 cm]
+	
+	{\large \thedate}\\[2 cm]
+ 
+	\vfill
+	
+\end{titlepage}
+
+\section*{Abbreviations}
+
+\begin{tabular}{l r}
+ACS & Attitude Control System \\
+ACT & Attitude Control Thrusters \\
+Comms & Communication Subsystem \\
+HDPE & High-Density Polyethylene \\
+HTP & High-Test Peroxide \\
+MECO & Main Engine Cut-Off \\
+Oxi. & Oxidiser \\
+PCB & Printed Circuit Board \\
+PWM & Pulse-Width Modulation \\
+VTVL & Vertical Take-off Vertical Landing \\
+\end{tabular}
+
+    \cleardoublepage
+
+\tableofcontents
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+The Lunar Hopper is a vertical take-off, vertical landing (VTVL) prototype for lunar exploration. The project begun in 2010 and has achieved multiple milestones. The project is run as a partnership between the Faculty of Engineering and the Environment at the University of Southampton, and also the Spaceflight Society, also at the University of Southampton. Each project group from the Faculty of Engineering and the Environment has been designated a successive Phase - the last Phase, Phase V, was run between October 2015 and June 2016. Following Phase V, the Spaceflight Society has contributed input to the project and is designated Phase VI.
+
+There have been two `versions' of the Lunar Hopper, Mk I and Mk II. The Lunar Hopper Mk I was completed in Phase III and underwent an unsuccessful test flight. Though the test flight was unsuccessful, valuable data was gathered. Phase IV then went on to work with a hybrid rocket development team to develop a new model, the Lunar Hopper Mk II, utilising the new engine. This model was designed and built during Phase IV but failed system flight-readiness tests on the day of attempted launch. 
+
+Phase V went on to ruggedize the Mk II, and performed multiple improvements to Mk II that were passed on to Phase VI. The primary objective of Phase VI is to prepare for and undertake a test flight of the Mk II, whilst improving systems which are in need of critical modification. It is hoped that Phase VII, also of Spaceflight Society input, will then be able to perform further modifications and significantly improve the design and performance of the Hopper.
+
+\subsection{Phase VI Objectives}
+
+Alongside the main objective of readying the Lunar Hopper for flight, the secondary objectives of Phase VI were inherited from Phase V and are as follows:
+
+\begin{enumerate}
+
+\item Verify control system logic and control system operation
+\item Modify and re-fit the propellant delivery system
+\item Re-design and manufacture landing leg brackets
+\item Ensure correct operation of the hybrid engine and attitude control thrusters
+\item Use the Lunar Hopper for outreach by performing demonstrations and generating multimedia for the University of Southampton.
+
+\end{enumerate}
+\end{document}
